@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(119, 119, 235);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(119, 119, 235);;
+}
+
+button{
+    margin: 0px 0 10px 0;
+    padding: 10px;
+    background: rgb(119,119,235);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.msg {
+    border: 1px solid tomato;
+    padding: 10px;
+    text-align: center;
+}
